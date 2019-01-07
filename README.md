@@ -3,8 +3,6 @@
 
 在这个项目里，我们实现了基于[RetinaNet](https://arxiv.org/pdf/1708.02002.pdf) 的交通标志检测算法。该项目主要代码参考自：[Simultaneous-Traffic-Sign-Detection-and-Classification-with-RetinaNet](https://github.com/CJHMPower/Simultaneous-Traffic-Sign-Detection-and-Classification-with-RetinaNet)。我们对数据集和代码进行了部分更改，使其能够在pytorch1.0版本下正常运行，并实现了一个五类的交通标志检测任务。
 
-RetinaNet是 Facebook AI 团队在 2018 年提出的目标检测框架。 RetinaNet 结合了 FPN 网络与FCN 网络， 在目标网络检测框架上并无特别亮眼点， 其最大创新在于 Focal loss 的提出以及在 onestage 目标检测网络的成功应用。 Focal loss 是一种改进的交叉熵损失（cross-entropy, CE），它通过在原有的交叉熵损失上乘上一个衰减因子， 使得 Focal loss 成功地解决了目标检测中的类别不平衡问题。 RetinaNet 的作者通过后续实验成功表明 Focal loss 可以成功应用在 one-stage 目标检测网络中，并最终能以更快的速率实现与 two-stage 目标检测网络近似或更优的效果。 
-
 ## Dataset
 
 ### CVTS数据集
@@ -39,9 +37,9 @@ CVTS-TT100K数据集共包含9333张图片，包含了警告标志、禁令标�
 
 ## Model
 
-- 代码中所采用的数据集：[CVTS-TT100K](https://pan.baidu.com/s/1z5X9kmo_9uJPl0GBLFItgA)
-- 在CVTS-TT100K和resnet101上训练得到的模型：[resnet101_8K.pth](https://pan.baidu.com/s/1YB74Fzkxs_NyKxSY0nD93A)
-- 在Tsinghua_Tencent_100K和resnet152训练得到的模型：[resnet152_40K.pth](https://pan.baidu.com/s/1-DKlXwq6olEbQherzaDFRw)
+- 代码中所采用的数据集：CVTS-TT100K
+- 在CVTS-TT100K和resnet101上训练得到的模型：resnet101_8K.pth
+- 在Tsinghua_Tencent_100K和resnet152训练得到的模型：resnet152_40K.pth
 
 ## Usage
 
