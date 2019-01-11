@@ -37,9 +37,9 @@ CVTS-TT100K数据集共包含9333张图片，包含了警告标志、禁令标�
 
 ## Model
 
-- 代码中所采用的数据集：CVTS-TT100K
-- 在CVTS-TT100K和resnet101上训练得到的模型：resnet101_8K.pth
-- 在Tsinghua_Tencent_100K和resnet152训练得到的模型：resnet152_40K.pth
+- 代码中所采用的数据集：[CVTS-TT100K](https://pan.baidu.com/s/1CCHLA0IqVwCXz8yGcA_zKQ)
+- 在CVTS-TT100K和resnet101上训练得到的模型：[resnet101_8K.pth](https://pan.baidu.com/s/1dRaFdobiQ74G2Kns1rnO6A)
+- 在Tsinghua_Tencent_100K和resnet152训练得到的模型：[resnet152_40K.pth](https://pan.baidu.com/s/11Pe5uVupfDtMuEXBW338fg)
 
 ## Usage
 
